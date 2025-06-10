@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sakura-san 🎬</title>
+    <style>
+        body { background-color: #ffe6f2; font-family: Arial, sans-serif; margin: 0; }
+        header { background-color: #ff66b3; padding: 20px; color: white; text-align: center; font-size: 30px; position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 30px; text-align: center; }
+        .card-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .card { width: 200px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .card img { width: 100%; border-radius: 10px 10px 0 0; }
+        .card p { padding: 10px; font-weight: bold; }
+        input[type="text"] { padding: 10px; width: 60%; border-radius: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <header>
+        Sakura-san 🎬
+        <nav>
+            <a href="#home">الصفحة الرئيسية</a>
+            <a href="#movies">الأفلام</a>
+            <a href="#series">المسلسلات</a>
+            <a href="#anime">الأنميات</a>
+            <a href="#favorites">السجل والمفضلة</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>مرحباً بك في Sakura-san</h2>
+        <p>استعرض أحدث الأفلام والمسلسلات والأنميات مجاناً</p>
+        <input type="text" placeholder="ابحث عن فيلم أو مسلسل أو أنمي...">
+    </section>
+
+    <section id="movies">
+        <h2>🎬 الأفلام</h2>
+        <div class="card-container">
+            <div class="card"><img src="https://placehold.co/200x300?text=Movie+1"><p>فيلم 1</p></div>
+            <div class="card"><img src="https://placehold.co/200x300?text=Movie+2"><p>فيلم 2</p></div>
+        </div>
+    </section>
+
+    <section id="series">
+        <h2>📺 المسلسلات</h2>
+        <div class="card-container">
+            <div class="card"><img src="https://placehold.co/200x300?text=Series+1"><p>مسلسل 1</p></div>
+            <div class="card"><img src="https://placehold.co/200x300?text=Series+2"><p>مسلسل 2</p></div>
+        </div>
+    </section>
+
+    <section id="anime">
+        <h2>✨ الأنميات</h2>
+        <div class="card-container">
+            <div class="card"><img src="https://placehold.co/200x300?text=Anime+1"><p>أنمي 1</p></div>
+            <div class="card"><img src="https://placehold.co/200x300?text=Anime+2"><p>أنمي 2</p></div>
+        </div>
+    </section>
+
+    <section id="favorites">
+        <h2>⭐ السجل والمفضلة</h2>
+        <p>يمكنك هنا رؤية ما شاهدته أو أضفته للمفضلة (قيد التطوير)</p>
+    </section>
+
+    <section id="contact">
+        <h2>📧 تواصل معنا</h2>
+        <p>راسلنا على: sakura@example.com</p>
+    </section>
+</body>
+</html>
